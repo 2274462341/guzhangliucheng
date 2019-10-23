@@ -1,0 +1,136 @@
+.alldata {
+  width: 100%;
+  height: 750px;
+}
+
+.el-table {
+  width: 100%;
+  height: 700px;
+  overflow-y: auto !important;
+}
+.element-top {
+  display: flex
+}
+
+.el-select {
+  margin-left: 200px;
+}
+
+.demonstration {
+  display: block;
+  /* margin: 0 10px 0 50px; */
+  height: 40px;
+  line-height: 40px;
+}
+
+.time {
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  margin: 0 10px;
+}
+
+.page-block {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 36px;
+}
+
+
+.block {
+  display: flex;
+}
+
+.el-form-item .el-form-item__content {
+  margin-left: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Taskdetails-details {
+  width: 600px;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  bottom: 65px;
+  right: 0;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.Taskdetails-left {
+  width: 20px;
+  height: 100%;
+  background: #ccc;
+}
+
+.Taskdetails-right {
+  margin-left: 20px;
+  width: 550px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.Taskdetails-ul {
+  border-bottom: 1px solid #000;
+}
+
+.Taskdetails-ul li {
+  height: 40px;
+  line-height: 40px;
+}
+
+.addto {
+  margin: 10px;
+}
+
+.Taskdetails-span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 700px;
+  text-align: center;
+}
+
+.Taskdetails-p {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Taskdetails-spanone {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #000;
+}
+
+.Taskdetails-ulli li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #000;
+  margin-top: 10px;
+}
+
+.Taskdetails-ulli li:nth-child(7) {
+  border: 0;
+}
+
+.Taskdetails-ulli li span:nth-child(2) {
+  padding-left: 20px;
+}
+
+.Taskdetails-ulspan>span {
+  padding: 0 5px;
+}

@@ -1,0 +1,58 @@
+.is-vertical {
+  width: 100%;
+  height: 100%;
+  border: solid 1px #000;
+}
+
+.el-header {
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+  border-bottom: solid 1px #000;
+
+}
+
+.el-aside {
+  border-right: solid 1px #1a0a0a;
+  height: 870px;
+
+}
+
+.aside-management {
+  width: 100%;
+  height: 123px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #cccccc;
+
+}
+
+.aside-management p {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: solid 1px #dddddd;
+
+}
+.router-show{
+  
+}
+
+.router-task {
+  width: 100%;
+  height: 120px;
+  text-align: left;
+}
+
+.router-task li {
+  margin-left: 30px;
+   height: 40px;
+   line-height: 40px;
+
+}
+.active{
+    color:red;
+    font-weight: bolder;
+}
